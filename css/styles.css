@@ -491,7 +491,7 @@ body ul li {
   .icon-social {
   fill: #f4f4fd;
 }
-.end .subscribe .subs .subs-p {
+.end .subs .subs-p {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -499,25 +499,25 @@ body ul li {
   color: #fff;
   margin-bottom: 16px;
 }
-.end .subscribe .subs .email {
+.end .subs .email {
   border: 1px solid #fff;
   border-radius: 0px 4px 4px 0px;
   width: 250px;
   height: 40px;
 }
-.end .subscribe .subs .subs-form {
+.end .subs .subs-form {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 12px;
 }
-.end .subscribe .subs .email::placeholder {
+.end .subs .email::placeholder {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   font-weight: 400;
 }
-.end .subscribe .subs .subs-button {
+.end .subs .subs-button {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -532,8 +532,9 @@ body ul li {
   text-align: center;
   color: #fff;
 }
-.end .subscribe .subs .subs-button .icon-send{
+.end .subs .subs-button .icon-send{
   margin-left: 16px;
+  fill: #fff;
 }
 .modal {
   display: flex;
