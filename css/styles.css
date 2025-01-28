@@ -391,22 +391,22 @@ body ul li {
   margin: 10px;
   margin-bottom: 8px;
 }
-.footer-class{
+.footer-class {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer-div{
+.footer-div {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.footer-d{
+.footer-d {
   margin-right: 120px;
 }
-.footer-class{
+.footer-class {
   font-family: "Raleway", sans-serif;
 }
-.footer-logo{
+.footer-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -418,16 +418,16 @@ body ul li {
   display: inline-block;
   text-decoration: none;
 }
-.footer-span{
+.footer-span {
   color: #fff;
 }
-.footer-p-item{
+.footer-p-item {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-.footer-media-item{
+.footer-media-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -435,7 +435,7 @@ body ul li {
   color: #fff;
   margin-top: 0;
 }
-.footer-media-ul{
+.footer-media-ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -443,14 +443,14 @@ body ul li {
   gap: 16px;
   padding: 0;
 }
-.footer-social-link{
+.footer-social-link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 40px;
   height: 40px;
 }
-.footer-link{
+.footer-link {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -460,25 +460,26 @@ body ul li {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-link:hover{
+.footer-link:hover {
   background-color: #31d0aa;
 }
-.footer-link:focus{
+.footer-link:focus {
   background-color: #31d0aa;
 }
-.footer-svg{
+.footer-svg {
   fill: #f4f4fd;
 }
-.modal-window{
+.modal-window {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-container{
+.modal-container {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -486,12 +487,13 @@ body ul li {
   width: 408px;
   min-height: 584px;
   background-color: #fcfcfc;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
 }
-.form-button{
+.form-button {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -505,17 +507,20 @@ body ul li {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-button:hover{
+.form-button:hover {
   border: none;
   background-color: #404bbf;
+  fill: #ffffff;
 }
-.form-button:focus{
+.form-button:focus {
   border: none;
   background-color: #404bbf;
+  fill: #ffffff;
 }
-.modal-p{
+.modal-p {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -524,19 +529,19 @@ body ul li {
   color: #2e2f42;
   margin-bottom: 16px;
 }
-.icon-close{
+.icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-close:hover{
+.form-button:hover + .icon-close {
   fill: #ffffff;
 }
-.icon-close:focus{
+.form-button:focus + .icon-close {
   fill: #ffffff;
 }
-.input-group{
+.input-group {
   margin-bottom: 8px;
 }
-.form-label{
+.form-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -544,14 +549,14 @@ body ul li {
   display: block;
   margin-bottom: 4px;
 }
-.icon-form{
+.icon-form {
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.div-label{
+.div-label {
   position: relative;
   display: flex;
   align-items: center;
@@ -559,13 +564,13 @@ body ul li {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
 }
-.div-label:hover{
+.div-label:hover {
   border-color: #4d5ae5;
 }
 .div-label:focus {
   border-color: #4d5ae5;
 }
-.div-label:focus + .icon-form{
+.div-label:focus + .icon-form {
   fill: #4d5ae5;
 }
 .input-label {
@@ -578,23 +583,23 @@ body ul li {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-label:focus{
+.input-label:focus {
   border-color: #4d5ae5;
 }
-.icon-name{
+.icon-name {
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-label:focus + .icon-name{
+.input-label:focus + .icon-name {
   fill: #4d5ae5;
 }
-.div-group{
+.div-group {
   margin-bottom: 16px;
 }
-.form-textarea{
+.form-textarea {
   width: 100%;
   height: 120px;
   font-size: 12px;
@@ -609,44 +614,46 @@ body ul li {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-textarea:focus{
+.form-textarea:focus {
   border-color: #4d5ae5;
 }
-.form-checkbox{
+.form-checkbox {
   margin-bottom: 24px;
 }
-.privacy-label{
+.privacy-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.input-check{
+.input-check {
   visibility: hidden;
 }
-.privacy-span{
+.privacy-span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
 }
-.input-check:checked + .privacy-label .privacy-span{
+.input-check:checked + .privacy-label .privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
-.label-a{
+.label-a {
   color: #4d5ae5;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
 }
-.send-button{
+.send-button {
   display: block;
   min-width: 169px;
   height: 56px;
@@ -662,11 +669,11 @@ body ul li {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 25%;
 }
-.button-div{
+.button-div {
   display: flex;
   justify-content: center;
 }
-.form-p{
+.form-p {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -674,14 +681,14 @@ body ul li {
   letter-spacing: 0.02em;
   color: #fff;
 }
-.footer-form-div{
+.footer-form-div {
   margin-left: 80px;
 }
-.footer-form{
+.footer-form {
   display: flex;
   gap: 24px;
 }
-.footer-input{
+.footer-input {
   width: 264px;
   height: 40px;
   color: #fff;
@@ -694,7 +701,7 @@ body ul li {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.footer-button{
+.footer-button {
   min-width: 165px;
   height: 40px;
   display: flex;
@@ -711,7 +718,7 @@ body ul li {
   border: none;
   border-radius: 4px;
 }
-.icon-send{
+.icon-send {
   margin-left: 16px;
   fill: #fff;
 }
